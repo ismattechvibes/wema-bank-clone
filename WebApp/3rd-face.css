@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #F4F4FE;
+
+}
+
+.face3 .arrow{
+    padding: 0 10px;
+}
+
+.face3 .logof3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.face3 .txtf3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.face3 form{
+    padding: 0 13px;
+    margin-top: 42px;
+}
+
+.face3 form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.face3 form input{
+    display: block;
+    margin-top: 14px;
+    border: none;
+    background: #F4F4FE;
+    padding: 16px 0;
+    font-size: 18px;
+    width: 350px;
+}
+
+.face3 .link a{
+    text-decoration: none;
+    color: #A90736;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #A90736;
+    font-size: 18px;
+}
+
+.face3 .link{
+    margin-top: 31px;
+     margin-left: 210px;
+}
+
+.face3 .button button{
+    background: #A90736;
+    color: #fff;
+    border: none;
+    padding: 20px 15px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.face3 .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+/* .face3 .button:hover{
+    background: #e40c49;
+    
+    
+} */
+
+.face3 .foottxt{
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.face3 .listf3 ul{
+    margin-top: 17px;
+    font-size: 13px;
+    line-height: 1.6em;
+    list-style: none;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 55px;
+    padding: 0  50px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.imgs p{
+    margin-top: 15px;
+}
+
+.imgs .img img{
+    background: #F5E8ED;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.imgs .loan p{
+    margin-top: 26px;
+}
+
+.imgs .wallet p{
+    margin-top: 31px;
+}

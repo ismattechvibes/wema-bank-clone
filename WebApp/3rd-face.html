@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3rd-face.css">
+    <title>3rd Interface</title>
+</head>
+<body>
+    <section class="face3">
+        <div class="arrow">
+            <img src="./images/Left Arrow.png" alt="...">
+        </div>
+        <div class="logof3">
+            <img src="./images/image 8.png" alt="...">
+        </div>
+
+        <div class="txtf3">
+            <p>welcome Back!</p>
+        </div>
+
+        <form action="">
+            <label for="">Email Address</label>
+            <input type="email" placeholder="ayomidewahabb@gmail.com">
+            <hr><br>
+            <label for="">Password</label>
+            <input type="password">
+            <hr>
+        </form>
+        <div class="link">
+            <a href="">forget password?</a>
+        </div>
+
+        <div class="button">
+            <button id="disable" onclick="dis()">Log in</button>
+        </div>
+
+        <div class="foottxt">
+            <p>Unable to Log In? Kindly <a href=""> Sign Up</a> if; </p>
+
+            <div class="listf3">
+                <ul>
+                    <li>-You are new to WEMA and ALAT.</li>
+                    <li>-You are new to ALAT and have a WEMA account.</li>
+                    <li>-You are new to ALAT and have  WEMA Mobile.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="imgs">
+        <div class=" img loan">
+            <img src="./images/Money Bag Pounds.png" alt="...">
+            <p>Get a loan</p>
+        </div>
+        <div class="img wallet">
+            <img src="./images/Wallet.png" alt="...">
+            <p>Get a wallet</p>
+        </div>
+        <div class=" img link">
+            <img src="./images/Quick Mode On (1).png" alt="...">
+            <p>Get a link</p>
+        </div>
+    </div>
+    <script>
+        function dis(){
+            const but = document.getElementById('disable');
+            but.disabled = true;
+        }
+    </script>
+</body>
+</html>
